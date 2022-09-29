@@ -1,0 +1,12 @@
+
+
+<table>
+    <tr *ngFor="let book of books; trackBy: trackBook">
+        
+        <td><a [routerLink]="'/reviews/'+ book.bookId">{{book.title}}</a></td>
+        <td>{{book.author}}</td>
+        <td><img src="{{ book.cover | noImage }} "alt="{{book.title + ' book cover'}}"/></td>
+    </tr>
+    
+    
+</table>
