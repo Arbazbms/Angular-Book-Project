@@ -1,12 +1,12 @@
 # BookStore
-
+```
 This App has 2 inputs (Title and Author) when clicked on add book -> this will post book Object.
 It Also fetches (GET) -> All books and display inside a table.
 When clicked on book tittle it takes book id and display book details in a seperate component.
 It Has Custom Pipe to display common image whenno image is available for each table row. 
-
+```
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
-![alt text](https://github.com/Arbazbms/Weather-app-NodeJs-ExpressJs-/blob/master/public/img/Screenshot.jpg)
+![App Image](https://github.com/Arbazbms/Angular-Book-Project/blob/main/src/assets/images/app-image.PNG)
 
 ## Development server
 
